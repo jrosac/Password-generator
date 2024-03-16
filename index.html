@@ -5,28 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password generator</title>
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- link com o style.css -->
 </head>
 <body>
 
-    <img src="Assets/Pass_gen_Icon1.jpg" alt="Logo do Password generator" height="300" width="300">
+    <img src="Assets/Pass_gen_Icon1.jpg" alt="Logo do Password generator" height="300" width="300"> <!-- Logo que será utilizada para a pagina web -->
 
-    <main class="container-input">
+    <main class="container-input"> <!-- Tag main para indicar parte principal da página -->
         <span>Password-length</span id="valor"><span></span>
-        <input id="slider" class="slider" type="range" min="5" max="25" value="10">
+        <input id="slider" class="slider" type="range" min="5" max="25" value="10"> <!-- Slider para indicar o tamanho da senha a ser gerada -->
 
-        <button id="button" class="button-cta"></button>
+        <button id="button" class="button-cta"></button> <!-- Botão para gerar a senha -->
     </main>
 
-    <div id="container-password" class="container-password hide">
+    <div id="container-password" class="container-password hide"> <!-- Div feita para mostrar o resultado das ações que foram realizadas na main -->
 
-        <span id="title">your generated password was:</span>
-        <span id="password" class="password"></span>
-        <span>Click in the password to copy. ☝️ </span>
+        <span id="title">your generated password was:</span> 
+        <span id="password" class="password"></span>              <!-- Spans que indicam o local em que a senha foi gerada, a senha e uma legenda para ajudar o usuário a copiar a senha -->
+        <span>Click in the password to copy. ☝️ </span>         
     </div>
 
 
 
-   <script src="script.js"></script>
+   <script src="script.js"></script> <!-- Link com o script.js -->
 </body>
 </html>
