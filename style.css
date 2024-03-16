@@ -1,0 +1,27 @@
+* /* Para estilazar com essas caracteristicas todas as partes do documento */
+{
+    font-family: sans-serif;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+body 
+{ background-color:antiquewhite;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Logo
+{ 
+    max-width:  400px;
+    max-height: 400px;
+    margin-bottom: 24px;
+}
+
+.container-input{
+    max-width: 900px;
+}
