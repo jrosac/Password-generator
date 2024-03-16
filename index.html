@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img src="Assets/Pass_gen_Icon1.jpg" alt="Logo do Password generator" height="300" width="300">
+
+    <main class="container-input">
+        <span>Password-length</span id="valor"><span></span>
+        <input id="slider" class="slider" type="range" min="5" max="25" value="10">
+
+        <button id="button" class="button-cta"></button>
+    </main>
+
+    <div id="container-password" class="container-password hide">
+
+        <span id="title">your generated password was:</span>
+        <span id="password" class="password"></span>
+        <span>Click in the password to copy. ☝️ </span>
+    </div>
+
+
+
+   <script src="script.js"></script>
+</body>
+</html>
