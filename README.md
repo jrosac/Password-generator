@@ -1,3 +1,5 @@
+# Password-generator
+
 Este é um gerador de senhas automático desenvolvido em HTML, CSS e JavaScript. Dado o tamanho desejado da senha, ele retorna uma senha aleatória com esse tamanho.Feito com o objetivo de aprimorar minhas habilidades com essas tecnologias.
 
 ## Funcionalidades
