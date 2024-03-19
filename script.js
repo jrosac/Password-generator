@@ -26,4 +26,10 @@ for(let i = 0, n= charset.length;i<sliderElement.value;++i ){
 //console.log(pass)
 containerPassword.classList.remove("hide");
 password.innerHTML = pass;
+novaSenha = pass;
+}
+
+function copyPassword(){     // copy the actual passaword saved on the variable "novaSenha" in the transfer area
+    //alert("Senha copiada")
+    navigator.clipboard.writeText(novaSenha)
 }
